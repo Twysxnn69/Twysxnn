@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVA PLAY — Страница игры</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="game.html">
+    <header class="site-header" data-header></header>
+    <main>
+      <div class="container" data-game-page></div>
+    </main>
+    <footer class="footer" data-footer></footer>
+
+    <div class="modal" data-modal>
+      <div class="modal-content">
+        <h3>Моментальная покупка</h3>
+        <p class="muted">Для примера подтверждение не списывает реальные средства.</p>
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-primary" data-confirm-buy>Подтвердить</button>
+          <button class="btn btn-outline" data-close-modal>Отмена</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

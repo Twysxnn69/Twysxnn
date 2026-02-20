@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVA PLAY — Каталог</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="catalog.html">
+    <header class="site-header" data-header></header>
+    <main>
+      <div class="container" data-catalog-page>
+        <h1 class="page-heading">Каталог игр</h1>
+        <p class="page-subtext">Используйте поиск и фильтр по жанрам для быстрого подбора игр.</p>
+
+        <div class="catalog-toolbar">
+          <input class="input" type="search" placeholder="Поиск по названию" data-search />
+          <select class="select" data-genre>
+            <option value="all">Все жанры</option>
+          </select>
+        </div>
+
+        <section class="grid" data-catalog-grid></section>
+      </div>
+    </main>
+    <footer class="footer" data-footer></footer>
+
+    <div class="modal" data-modal>
+      <div class="modal-content">
+        <h3>Подтверждение покупки</h3>
+        <p class="muted">Оформление доступно на странице корзины.</p>
+        <button class="btn btn-outline" data-close-modal>Закрыть</button>
+      </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

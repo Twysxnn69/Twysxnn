@@ -1,0 +1,56 @@
+[
+  {
+    "id": "neon-protocol",
+    "title": "Neon Protocol",
+    "genre": "Action",
+    "price": 1299,
+    "rating": 4.7,
+    "cover": "assets/images/neon-protocol.svg",
+    "description": "Киберпанк-шутер с динамичной боевой системой и кооперативом до 4 игроков."
+  },
+  {
+    "id": "iron-legion",
+    "title": "Iron Legion",
+    "genre": "Strategy",
+    "price": 1599,
+    "rating": 4.5,
+    "cover": "assets/images/iron-legion.svg",
+    "description": "Глобальная стратегия о борьбе фракций за ресурсы в постиндустриальном мире."
+  },
+  {
+    "id": "ashen-road",
+    "title": "Ashen Road",
+    "genre": "RPG",
+    "price": 1899,
+    "rating": 4.8,
+    "cover": "assets/images/ashen-road.svg",
+    "description": "Мрачная ролевая игра с нелинейным сюжетом и сложной системой прокачки."
+  },
+  {
+    "id": "drift-vector",
+    "title": "Drift Vector",
+    "genre": "Racing",
+    "price": 999,
+    "rating": 4.3,
+    "cover": "assets/images/drift-vector.svg",
+    "description": "Аркадные гонки будущего с глубокой настройкой транспорта и онлайн-турнирами."
+  },
+  {
+    "id": "void-farm",
+    "title": "Void Farm",
+    "genre": "Simulation",
+    "price": 799,
+    "rating": 4.4,
+    "cover": "assets/images/void-farm.svg",
+    "description": "Космический симулятор колонии с акцентом на автоматизацию и торговлю."
+  },
+  {
+    "id": "echoes-below",
+    "title": "Echoes Below",
+    "genre": "Adventure",
+    "price": 1199,
+    "rating": 4.6,
+    "cover": "assets/images/echoes-below.svg",
+    "description": "Приключенческий триллер с головоломками и атмосферным подземным миром."
+  }
+]
